@@ -52,4 +52,4 @@ Lancer le serveur puis ouvrir :
 http://localhost:3000/api-docs
 
 ## Auteur
-Emmanuel
+Kamdem Ndeffo Franck Emmanuel
