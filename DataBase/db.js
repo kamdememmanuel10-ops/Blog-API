@@ -9,9 +9,7 @@ db.pragma('journal_mode = WAL');
 
 module.exports = db;
 
-
-db.serialize(() => {
-    db.run(`
+    db.exec(`
         CREATE TABLE IF NOT EXISTS articles (
             id INTEGER PRIMARY KEY AUTOINCREMENT, 
             titre TEXT,
@@ -22,4 +20,4 @@ db.serialize(() => {
             tags TEXT
             )
         `);
-});
+);
