@@ -1,6 +1,14 @@
 const Database = require('better-sqlite3');
+const path = require('path');
 
-const db = new Database('./blog.db', {verbose: console.log});
+const dbpath = path.join(__dirname, 'database.db');
+
+const db = new Database(dbpath, {fileMustExist: false });
+
+db.pragma('journal_mode = WAL');
+
+module.exports = db;
+
 
 db.serialize(() => {
     db.run(`
