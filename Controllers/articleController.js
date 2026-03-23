@@ -1,4 +1,4 @@
-const db = require('../database/db');
+const db = require('../DataBase/db');
 
 exports.createArticle = (req, res) => {
   const { titre, contenu, auteur, date, categorie, tags } = req.body;
