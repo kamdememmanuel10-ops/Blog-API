@@ -1,6 +1,6 @@
-const Database = require('better-sqlite3');
+const Database = require('better-sqlite3').verbose();
 
-const db = new Database('./blog.db', {verbose: console.log });
+const db = new better-sqlite3.Database('./blog.db')
 
 
 db.exec(`
@@ -12,7 +12,8 @@ db.exec(`
         date TEXT,
         categorie TEXT,
         tags TEXT
-    )
-`);
+        )
+    `);
+
 
 module.exports = db;
