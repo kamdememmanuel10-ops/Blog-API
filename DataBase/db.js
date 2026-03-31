@@ -1,6 +1,6 @@
 const Database = require('better-sqlite3');
 
-const db = new better-sqlite3.Database('./blog.db')
+const db = new Database('./blog.db')
 
 
 db.exec(`
