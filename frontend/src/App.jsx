@@ -15,12 +15,12 @@ const styles = `
     --border:  #111827;
     --border2: #1a2535;
     --blue:    #2563eb;
-    --blue2:   #3b82f6;
+    --blue2:   #010203;
     --blue3:   #60a5fa;
-    --blue4:   #93c5fd;
+    --blue4:   #000000;
     --gray:    #4a5568;
     --gray2:   #718096;
-    --light:   #a0aec0;
+    --light:   #000000;
     --white:   #e2e8f0;
     --glow:    rgba(37,99,235,0.2);
   }
