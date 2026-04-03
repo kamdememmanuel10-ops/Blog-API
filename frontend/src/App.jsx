@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 
-const API = "https://blog-api-emmanuel.onrender.com/api/articles";
+const API = "https://blog-api-emmanuel.onrender.com/api/article";
 
 // ─── GLOBAL STYLES ────────────────────────────────────────────────────────────
 const styles = `
