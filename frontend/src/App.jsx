@@ -9,20 +9,20 @@ const styles = `
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --black:   #060810;
-    --dark:    #0d1117;
-    --card:    #111827;
-    --border:  #1e2d40;
-    --border2: #253347;
+    --black:   #010203;
+    --dark:    #030508;
+    --card:    #05080f;
+    --border:  #111827;
+    --border2: #1a2535;
     --blue:    #2563eb;
     --blue2:   #3b82f6;
     --blue3:   #60a5fa;
     --blue4:   #93c5fd;
-    --gray:    #64748b;
-    --gray2:   #94a3b8;
-    --light:   #cbd5e1;
-    --white:   #f1f5f9;
-    --glow:    rgba(37,99,235,0.25);
+    --gray:    #4a5568;
+    --gray2:   #718096;
+    --light:   #a0aec0;
+    --white:   #e2e8f0;
+    --glow:    rgba(37,99,235,0.2);
   }
 
   html { scroll-behavior: smooth; }
