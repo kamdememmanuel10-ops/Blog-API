@@ -4,7 +4,7 @@ exports.createArticle = (req, res) => {
   const { titre, contenu, auteur, date, categorie, tags } = req.body;
 
   // ✅ Validation
-  if (!titre || titre.trim() === '')
+  if (!titre || titre.trim() === '') 
     return res.status(400).json({ error: "Le titre est obligatoire" });
   if (!auteur || auteur.trim() === '')
     return res.status(400).json({ error: "L'auteur est obligatoire" });
